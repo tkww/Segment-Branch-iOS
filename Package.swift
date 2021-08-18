@@ -3,12 +3,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "Segment-Branch",
+    name: "Segment_Branch",
     platforms: [.iOS(.v10)],
     products: [
         .library(
-            name: "Segment-Branch",
-            targets: ["Segment-Branch"]
+            name: "Segment_Branch",
+            targets: ["Segment_Branch"]
         )
     ],
     dependencies: [
@@ -17,12 +17,12 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "Segment-Branch",
+            name: "Segment_Branch",
             dependencies: ["Branch", "Segment"],
             path: "Pod",
             exclude: ["Example"],
             sources: ["Classes"],
-            publicHeadersPath: "."
+            publicHeadersPath: "Classes"
         )
     ]
 )
