@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/BranchMetrics/Segment-Branch-iOS"
   s.license          = 'MIT'
   s.author           = { "Branch Metrics" => "support@branch.io" }
-  s.source           = { :git => "https://github.com/BranchMetrics/Segment-Branch-iOS.git", :commit => "1fd3982787e849bdb58cd1ebcb3e02ae7267231e" }
+  s.source           = { :git => "https://github.com/BranchMetrics/Segment-Branch-iOS.git", :commit => "176bf4fc26c9c722d859c11f4a7ce8252b974403" }
   # s.social_media_url = 'https://twitter.com/branchmetrics'
 
   s.platform     = :ios, '9.0'
