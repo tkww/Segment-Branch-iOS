@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Segment-Branch-iOS
+  annotations:
+    github.com/project-slug: tkww/Segment-Branch-iOS
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: library
+  lifecycle: production
+  owner: ios-platform
